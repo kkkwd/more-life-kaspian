@@ -1,0 +1,7 @@
+node_modules
+.svelte-kit
+.vercel
+build
+.git
+.DS_Store
+npm-debug.log
