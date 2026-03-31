@@ -99,12 +99,12 @@
 </script>
 
 <svelte:head>
-  <title>{currentLocale === 'zh' ? 'Kaspian | AI 工程 / 量化开发 / Builder' : 'Kaspian | AI Engineer / Quant Developer / Builder'}</title>
+  <title>{currentLocale === 'zh' ? 'Kaspian | Builder | All in AI and Web3' : 'Kaspian | AI Engineer / Web3 Developer / Builder'}</title>
   <meta
     name="description"
     content={currentLocale === 'zh'
-      ? '面向 AI、量化与自动化系统的个人作品站，包含项目、经历、博客与联系方式。'
-      : 'A focused portfolio for AI systems, quant infrastructure, automation, selected projects, writing, and contact.'}
+      ? '面向 AI、区块链与自动化系统的个人作品站，包含项目、经历、博客与联系方式。'
+      : 'A focused portfolio for AI systems, web3 infrastructure, automation, selected projects, writing, and contact.'}
   />
 </svelte:head>
 
