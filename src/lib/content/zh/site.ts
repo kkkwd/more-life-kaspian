@@ -15,17 +15,17 @@ export const siteZh: SiteContent = {
     { label: '联系', href: '#contact' }
   ],
   hero: {
-    eyebrow: 'AI Engineer · Quant Developer · Builder',
-    title: '构建面向真实场景的 AI、量化与自动化系统。',
+    eyebrow: 'AI Engineer · Web3 Developer · Builder',
+    title: '构建面向真实场景的 AI、Web3 与自动化系统。',
     subtitle:
-      '我专注于知识系统、量化工具链与 Agent 工作流的工程化实现，强调结构清晰、可落地和长期可维护。',
+      '专注于系统构建、Web3 开发与 Agent 工作流的工程化实现，强调结构化、可落地和长期可维护。',
     primaryCta: '查看项目',
     secondaryCta: '下载简历',
     availability: '可沟通工程岗位、研究合作与产品共建。',
     metrics: [
-      { label: '方向', value: 'RAG / LLM 系统' },
+      { label: '方向', value: 'LLM模型 / Agent工程' },
       { label: '基础设施', value: '量化与自动化' },
-      { label: '工作方式', value: '兼具实现力与研究深度' }
+      { label: '工作方式', value: '兼具快速交付和可用性' }
     ]
   },
   projects: {
@@ -38,17 +38,17 @@ export const siteZh: SiteContent = {
         name: 'AI Knowledge Base',
         summary: '面向私有文档、研究资料与多源检索推理的知识系统。',
         description:
-          '构建了一套支持多知识库路由、引用溯源和可观测性的 RAG 系统，重点解决真实使用中的精度与可审计性问题。',
+          '构建了一套支持多知识库路由、引用溯源和可观测性的 RAG 系统，重点解决金融系统真实使用中的精度与可审计性问题。',
         details: [
           '设计分块、混合检索与重排流程，提升垂直语料下的召回质量与回答准确度。',
           '加入引用来源、溯源链路与提示词控制，降低黑盒感，提升专业场景下的可信度。',
           '系统按 API、数据接入与前端对话流程拆分，方便后续扩展到多租户和更多业务场景。'
         ],
-        tags: ['SvelteKit', 'Python', 'FastAPI', 'Postgres', 'pgvector'],
-        status: '可生产化',
+        tags: ['LLM (Minimax API)', 'Python', 'FastAPI', 'Postgres', 'pgvector'],
+        status: '已生产化',
         highlight: '混合检索 + 引用溯源 + 多知识库路由',
-        github: 'https://github.com/',
-        demo: '#contact'
+        github: 'https://github.com/kkkwd/bank-knowledge-assistant',
+        demo: 'https://www.kaspian.top/'
       },
       {
         name: 'Quant Trading Bot',
@@ -70,16 +70,16 @@ export const siteZh: SiteContent = {
         name: 'Web3 Agent',
         summary: '面向链上任务、钱包动作与事件驱动自动化的执行 Agent。',
         description:
-          '围绕链上上下文理解、工具调用与任务执行构建 Agent Runtime，重点处理执行安全、状态管理与多步骤自动化。',
+          '围绕链上事件监听、工具调用与任务执行构建 Agent，重点处理执行安全、状态管理与全流程自动化。',
         details: [
           '通过工具接口与状态模型约束 Agent 行为，使钱包动作具备更清晰的安全边界。',
           '接入事件触发与执行日志，提升多步骤链上流程的可观测性与调试效率。',
-          '在签名、重试、环境隔离等关键细节上做工程取舍，兼顾实验速度和落地可行性。'
+          '在签名、重试、环境隔离等关键细节上做工程取舍，兼顾速度性能和落地可行性。'
         ],
-        tags: ['TypeScript', 'EVM', 'Agent Runtime', 'RPC', 'Automation'],
-        status: '研究中',
-        highlight: '具备执行边界控制的工具调用式 Agent Runtime',
-        github: 'https://github.com/',
+        tags: ['TypeScript', 'Polygon', 'Agent', 'RPC', 'Automation'],
+        status: '已开源',
+        highlight: '具备执行边界控制的工具调用式 Agent 链上跟单系统',
+        github: 'https://github.com/kkkwd/polymarket-copytrader',
         demo: '#blog'
       }
     ]
@@ -166,36 +166,37 @@ export const siteZh: SiteContent = {
   },
   about: {
     kicker: '关于我',
-    title: '偏好克制界面、清晰系统和真正有用的技术深度。',
-    description:
-      '我主要工作在 AI 系统、量化工具链和开发者产品的交叉地带，更关注软件如何在真实约束下保持可理解、可扩展与可维护。',
-    intro:
-      '我在意的是把技术想法变成能长期运行的系统。这通常意味着更清晰的接口、更简单的抽象，以及对复杂度的主动管理，而不是堆叠概念。',
+    title: '偏好克制极简界面、清晰可落地工程系统的完美主义者。',
+    description: 
+      '我主要工作在 AI 系统、量化工具链与开发者产品的交叉地带，长期关注金融、交易系统与自动化执行在真实约束下的工程落地。',
+    intro: 
+      '传统金融与交易系统背景让我更关注技术如何真正形成可运行、可扩展、可维护的系统。我对 Web3、DeFi、预测市场、Agent 结合钱包自动执行，以及未来金融基础设施的设计与演化有持续兴趣。',
     focus: [
-      '围绕检索、评估与工作流编排构建 LLM 应用工程体系。',
-      '面向研究、监控和自动执行的量化数据与执行系统。',
-      '强调清晰度、速度和长期可维护性的开发者产品。'
+      '围绕检索、评估、工作流编排构建可落地的 LLM 应用。',
+      '面向研究、回测、监控与执行设计量化交易系统。',
+      '关注 Web3、预测市场、套利机会与自动化执行体系。',
+      '探索独立开发、产品化路径与个人长期商业积累。'
     ],
-    current:
-      '当前重点关注检索质量、Agent 可靠性、执行状态设计，以及如何让原型系统在进入真实场景后依然保持可用。',
+    current: 
+      '当前重点关注Agent 可靠性、执行状态设计，以及数据驱动的自动反馈闭环。我持续借助 AI 快速学习和迭代，关注真实场景中的可用性、可盈利性与长期复利。',
     terminal: [
-      { key: 'role', value: 'AI Engineer / Quant Developer / Builder' },
-      { key: 'stack', value: 'SvelteKit, Python, TypeScript, FastAPI, Postgres' },
-      { key: 'focus', value: 'RAG 系统、交易基础设施、Agent 工具链' },
-      { key: 'interest', value: '执行质量、评估闭环、系统设计' },
-      { key: 'building', value: '兼顾研究灵活性与生产约束的实用工具' }
+      { key: 'role', value: 'AI Engineer / Web3 Developer / Builder' },
+      { key: 'stack', value: 'Golang, Python, Rust, TypeScript, Postgres' },
+      { key: 'focus', value: 'Agent 系统、交易基础设施、自动化工作流程' },
+      { key: 'interest', value: '创意优先、系统设计、商业模式' },
+      { key: 'building', value: '坚持结果导向 以盈利为目标的实用工具' }
     ]
   },
   contact: {
-    title: '一起做些真正有意义的系统。',
-    subtitle: '欢迎交流工程岗位、合作项目和有长期价值的技术方向。',
-    email: 'kaspian@example.com',
-    github: 'https://github.com/',
-    linkedin: 'https://www.linkedin.com/',
-    x: 'https://x.com/',
+    title: '一起去码头整点薯条。Do Everything. Do not Die.',
+    subtitle: '欢迎交流工作岗位、合作项目和独立个体前沿技术方向。',
+    email: 'k945runfree@gmail.com',
+    github: 'https://github.com/kkkwd/',
+    linkedin: 'https://www.linkedin.com/in/weidong-kong/',
+    x: 'https://x.com/Morelifekkk/',
     resumeHref: '/Kaspian-Resume.pdf'
   },
-  footerNote: '使用 SvelteKit 与 Tailwind CSS 构建，细节克制，信息优先。',
+  footerNote: '使用 SvelteKit 与 Tailwind CSS 构建，特效克制，信息优先。',
   projectActions: {
     code: 'GitHub',
     live: '详情'

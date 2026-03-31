@@ -15,17 +15,17 @@ export const siteEn: SiteContent = {
     { label: 'Contact', href: '#contact' }
   ],
   hero: {
-    eyebrow: 'AI Engineer · Quant Developer · Builder',
-    title: 'Building practical systems across AI, trading, and automation.',
+    eyebrow: 'AI Engineer · Web3 Developer · Builder',
+    title: 'Building AI, Web3, and automation systems for real-world use.',
     subtitle:
-      'I design production-minded knowledge systems, quant tooling, and agent workflows with a bias toward clarity, execution, and durable engineering.',
+      'Focused on engineering implementation across system building, Web3 development, and agent workflows, with an emphasis on structure, real deployment, and long-term maintainability.',
     primaryCta: 'View Projects',
     secondaryCta: 'Download Resume',
     availability: 'Open to engineering roles, research collaboration, and product builds.',
     metrics: [
-      { label: 'Focus', value: 'RAG / LLM Systems' },
+      { label: 'Focus', value: 'LLM Models / Agent Engineering' },
       { label: 'Infra', value: 'Quant & Automation' },
-      { label: 'Mode', value: 'Builder with research depth' }
+      { label: 'Mode', value: 'Fast delivery with practical usability' }
     ]
   },
   projects: {
@@ -38,17 +38,17 @@ export const siteEn: SiteContent = {
         name: 'AI Knowledge Base',
         summary: 'A retrieval system for private documentation, research notes, and multi-source reasoning.',
         description:
-          'Built a RAG stack that supports multi-knowledge-base routing, citation-grounded answers, and operational observability for production usage.',
+          'Built a RAG system with multi-knowledge-base routing, citation tracing, and observability, focused on solving accuracy and auditability issues in real financial-system usage.',
         details: [
           'Designed chunking, hybrid retrieval, and reranking for higher answer precision on domain-specific corpora.',
           'Added answer citations, source tracing, and prompt controls to make outputs more auditable for serious use.',
           'Shaped the system for extensibility across API, ingestion pipelines, and front-end chat workflows.'
         ],
-        tags: ['SvelteKit', 'Python', 'FastAPI', 'Postgres', 'pgvector'],
-        status: 'Production-minded',
+        tags: ['LLM (Minimax API)', 'Python', 'FastAPI', 'Postgres', 'pgvector'],
+        status: 'Productionized',
         highlight: 'Hybrid retrieval + citations + multi-tenant knowledge routing',
-        github: 'https://github.com/',
-        demo: '#contact'
+        github: 'https://github.com/kkkwd/bank-knowledge-assistant',
+        demo: 'https://www.kaspian.top/'
       },
       {
         name: 'Quant Trading Bot',
@@ -70,16 +70,16 @@ export const siteEn: SiteContent = {
         name: 'Web3 Agent',
         summary: 'An execution agent for on-chain tasks, wallet actions, and event-driven automation.',
         description:
-          'Created an agent-oriented runtime that can reason over chain context, trigger tool calls, and execute predefined operational flows.',
+          'Built an agent around on-chain event monitoring, tool calling, and task execution, with emphasis on execution safety, state management, and full-process automation.',
         details: [
           'Structured tools and state so the agent can safely compose wallet actions with deterministic guardrails.',
           'Integrated event triggers and execution logs for better visibility into multi-step on-chain workflows.',
-          'Balanced experimentation speed with practical constraints around signing, retries, and environment separation.'
+          'Made engineering tradeoffs around signing, retries, and environment isolation to balance speed, performance, and real-world feasibility.'
         ],
-        tags: ['TypeScript', 'EVM', 'Agent Runtime', 'RPC', 'Automation'],
-        status: 'Research',
-        highlight: 'Tool-using agent loop with transaction-safe execution boundaries',
-        github: 'https://github.com/',
+        tags: ['TypeScript', 'Polygon', 'Agent', 'RPC', 'Automation'],
+        status: 'Open Source',
+        highlight: 'A tool-calling on-chain copy trading agent system with execution boundary controls',
+        github: 'https://github.com/kkkwd/polymarket-copytrader',
         demo: '#blog'
       }
     ]
@@ -166,36 +166,37 @@ export const siteEn: SiteContent = {
   },
   about: {
     kicker: 'About',
-    title: 'Engineering preference: calm interfaces, sharp systems, and useful depth.',
+    title: 'A perfectionist drawn to restrained minimal interfaces and clear, practical engineering systems.',
     description:
-      'I work at the intersection of AI systems, quant tooling, and developer products. My bias is toward software that is understandable, extensible, and grounded in real operational constraints.',
+      'I mainly work at the intersection of AI systems, quant tooling, and developer products, with a long-term focus on how finance, trading systems, and automated execution can be engineered under real constraints.',
     intro:
-      'I care about turning technical ideas into systems that can survive real use. That usually means cleaner interfaces, simpler abstractions, and deliberate tradeoffs instead of unnecessary complexity.',
+      'My background in traditional finance and trading systems makes me care more about how technology becomes something runnable, scalable, and maintainable. I have ongoing interest in Web3, DeFi, prediction markets, agents combined with wallet-based execution, and the design and evolution of future financial infrastructure.',
     focus: [
-      'LLM application engineering with retrieval, evaluation, and workflow orchestration.',
-      'Quant-oriented data and execution systems for research, monitoring, and automation.',
-      'Developer-facing products that value clarity, speed, and maintainable architecture.'
+      'Building deployable LLM applications around retrieval, evaluation, and workflow orchestration.',
+      'Designing quantitative trading systems for research, backtesting, monitoring, and execution.',
+      'Following Web3, prediction markets, arbitrage opportunities, and automated execution systems.',
+      'Exploring indie building, productization paths, and long-term personal capital accumulation.'
     ],
     current:
-      'Currently focused on retrieval quality, agent reliability, execution-state design, and building tools that stay practical after the prototype phase.',
+      'Currently focused on agent reliability, execution-state design, and data-driven automatic feedback loops. I keep using AI to learn and iterate quickly, with attention on usability, profitability, and long-term compounding in real scenarios.',
     terminal: [
-      { key: 'role', value: 'AI Engineer / Quant Developer / Builder' },
-      { key: 'stack', value: 'SvelteKit, Python, TypeScript, FastAPI, Postgres' },
-      { key: 'focus', value: 'RAG systems, trading infra, agent tooling' },
-      { key: 'interest', value: 'Execution quality, eval loops, system design' },
-      { key: 'building', value: 'Production-minded tools with research flexibility' }
+      { key: 'role', value: 'AI Engineer / Web3 Developer / Builder' },
+      { key: 'stack', value: 'Golang, Python, Rust, TypeScript, Postgres' },
+      { key: 'focus', value: 'Agent systems, trading infrastructure, automated workflows' },
+      { key: 'interest', value: 'Creativity first, system design, business models' },
+      { key: 'building', value: 'Practical tools driven by results and aimed at profitability' }
     ]
   },
   contact: {
-    title: 'Let’s build something meaningful.',
-    subtitle: 'Open to collaboration, engineering roles, and interesting systems work.',
-    email: 'kaspian@example.com',
-    github: 'https://github.com/',
-    linkedin: 'https://www.linkedin.com/',
-    x: 'https://x.com/',
+    title: 'Let’s go get some fries at the dock. Do Everything. Do not Die.',
+    subtitle: 'Open to job opportunities, collaborative projects, and frontier technical directions for independent builders.',
+    email: 'k945runfree@gmail.com',
+    github: 'https://github.com/kkkwd/',
+    linkedin: 'https://www.linkedin.com/in/weidong-kong/',
+    x: 'https://x.com/Morelifekkk/',
     resumeHref: '/Kaspian-Resume.pdf'
   },
-  footerNote: 'Built with SvelteKit, Tailwind CSS, and a preference for restrained details.',
+  footerNote: 'Built with SvelteKit and Tailwind CSS, with restrained effects and information first.',
   projectActions: {
     code: 'GitHub',
     live: 'Details'
