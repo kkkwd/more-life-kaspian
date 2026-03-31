@@ -1,3 +1,9 @@
+# Build output
+build
+
+# Vercel output
+.vercel
+
 # Logs
 logs
 *.log
