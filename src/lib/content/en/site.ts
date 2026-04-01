@@ -50,21 +50,38 @@ export const siteEn: SiteContent = {
         github: 'https://github.com/kkkwd/bank-knowledge-assistant',
         demo: 'https://www.kaspian.top/'
       },
+      // {
+      //   name: 'Quant Trading Bot',
+      //   summary: 'A research-to-execution trading framework for systematic strategies and exchange automation.',
+      //   description:
+      //     'Implemented a trading workflow that connects backtesting, signal evaluation, and live execution with risk-aware controls.',
+      //   details: [
+      //     'Separated data ingestion, strategy logic, execution, and monitoring to keep research loops fast and deployable.',
+      //     'Built exchange adapters and order handling with clear state transitions, logs, and failure recovery paths.',
+      //     'Focused on reproducible metrics, configurable risk rules, and a clean path from research notebooks to production jobs.'
+      //   ],
+      //   tags: ['Python', 'Pandas', 'Backtesting', 'OKX', 'Docker'],
+      //   status: 'Ongoing',
+      //   highlight: 'Backtest and live trading flow under one architecture',
+      //   github: 'https://github.com/',
+      //   demo: '#experience'
+      // },
       {
-        name: 'Quant Trading Bot',
-        summary: 'A research-to-execution trading framework for systematic strategies and exchange automation.',
+        name: 'ChronoStamp',
+        summary: 'An on-chain credential protocol and productized Web3 build for real-world event scenarios.',
         description:
-          'Implemented a trading workflow that connects backtesting, signal evaluation, and live execution with risk-aware controls.',
+          'Built around real events and identity accumulation, combining off-chain eligibility checks, on-chain credential issuance, and user interaction into one coordinated Web3 product.',
         details: [
-          'Separated data ingestion, strategy logic, execution, and monitoring to keep research loops fast and deployable.',
-          'Built exchange adapters and order handling with clear state transitions, logs, and failure recovery paths.',
-          'Focused on reproducible metrics, configurable risk rules, and a clean path from research notebooks to production jobs.'
+          'Used off-chain signature authorization with on-chain contract verification to create a clear claim flow with stronger execution reliability and verifiability.',
+          'Abstracted credential issuance through a factory pattern, enabling standardized deployment and extension across multiple event scenarios.',
+          'Integrated IPFS metadata storage, front-end interactions, and on-chain execution feedback into a complete product loop.',
+          'Designed for composability, portability, and future evolution, leaving room for later Agent + Wallet automation workflows.'
         ],
-        tags: ['Python', 'Pandas', 'Backtesting', 'OKX', 'Docker'],
-        status: 'Ongoing',
-        highlight: 'Backtest and live trading flow under one architecture',
-        github: 'https://github.com/',
-        demo: '#experience'
+        tags: ['Hardhat', 'Next.js', 'Arbitrum', 'IPFS', 'Ethers.js'],
+        status: 'Live',
+        highlight: 'A Web3 credential system designed for real product delivery and on-chain execution scenarios',
+        github: 'https://github.com/ZaneMa528/chronostamp',
+        demo: 'https://chronostamp-poap.vercel.app/'
       },
       {
         name: 'Web3 Agent',

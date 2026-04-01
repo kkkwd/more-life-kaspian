@@ -50,21 +50,37 @@ export const siteZh: SiteContent = {
         github: 'https://github.com/kkkwd/bank-knowledge-assistant',
         demo: 'https://www.kaspian.top/'
       },
+      // {
+      //   name: 'Quant Trading Bot',
+      //   summary: '连接研究、回测与实盘执行的系统化交易框架。',
+      //   description:
+      //     '实现了一套面向策略研究和自动执行的交易系统，把回测评估、信号验证与实盘执行放入同一架构中管理。',
+      //   details: [
+      //     '将数据接入、策略逻辑、执行模块与监控链路拆分，兼顾研究效率与部署稳定性。',
+      //     '封装交易所适配层与订单处理流程，明确状态流转、日志记录与异常恢复路径。',
+      //     '强调可复现指标、风险规则配置与从研究原型迁移到生产任务的连续性。'
+      //   ],
+      //   tags: ['Python', 'Pandas', 'Backtesting', 'OKX', 'Docker'],
+      //   status: '持续迭代',
+      //   highlight: '统一回测与实盘执行的系统架构',
+      //   github: 'https://github.com/',
+      //   demo: '#experience'
+      // },
       {
-        name: 'Quant Trading Bot',
-        summary: '连接研究、回测与实盘执行的系统化交易框架。',
-        description:
-          '实现了一套面向策略研究和自动执行的交易系统，把回测评估、信号验证与实盘执行放入同一架构中管理。',
-        details: [
-          '将数据接入、策略逻辑、执行模块与监控链路拆分，兼顾研究效率与部署稳定性。',
-          '封装交易所适配层与订单处理流程，明确状态流转、日志记录与异常恢复路径。',
-          '强调可复现指标、风险规则配置与从研究原型迁移到生产任务的连续性。'
+        "name": "ChronoStamp",
+        "summary": "面向真实活动场景的链上数字凭证协议与 Web3 产品化实践。",
+        "description": "围绕真实活动与身份沉淀场景，构建链下资格判断、链上凭证发放与用户交互统一协同的 Web3。",
+        "details": [
+          "以链下签名授权与链上合约验证构建清晰的领取流程，强化状态边界、执行可靠性与可验证性。",
+          "通过 Factory 模式抽象活动凭证发行逻辑，支持多活动场景下的标准化部署与扩展。",
+          "结合 IPFS 元数据存储、前端交互与链上执行反馈，形成完整的产品闭环。",
+          "项目设计强调可组合、可迁移与可演进，为后续 Agent + Wallet 自动执行体系预留接口。"
         ],
-        tags: ['Python', 'Pandas', 'Backtesting', 'OKX', 'Docker'],
-        status: '持续迭代',
-        highlight: '统一回测与实盘执行的系统架构',
-        github: 'https://github.com/',
-        demo: '#experience'
+        "tags": ["Hardhat", "Next.js", "Arbitrum", "IPFS", "Ethers.js"],
+        "status": "已部署上线",
+        "highlight": "面向可落地产品化与链上执行场景设计的 Web3 凭证系统",
+        "github": "https://github.com/ZaneMa528/chronostamp",
+        "demo": "https://chronostamp-poap.vercel.app/"
       },
       {
         name: 'Web3 Agent',
@@ -167,9 +183,9 @@ export const siteZh: SiteContent = {
   about: {
     kicker: '关于我',
     title: '偏好克制极简界面、清晰可落地工程系统的完美主义者。',
-    description: 
+    description:
       '我主要工作在 AI 系统、量化工具链与开发者产品的交叉地带，长期关注金融、交易系统与自动化执行在真实约束下的工程落地。',
-    intro: 
+    intro:
       '传统金融与交易系统背景让我更关注技术如何真正形成可运行、可扩展、可维护的系统。我对 Web3、DeFi、预测市场、Agent 结合钱包自动执行，以及未来金融基础设施的设计与演化有持续兴趣。',
     focus: [
       '围绕检索、评估、工作流编排构建可落地的 LLM 应用。',
@@ -177,7 +193,7 @@ export const siteZh: SiteContent = {
       '关注 Web3、预测市场、套利机会与自动化执行体系。',
       '探索独立开发、产品化路径与个人长期商业积累。'
     ],
-    current: 
+    current:
       '当前重点关注Agent 可靠性、执行状态设计，以及数据驱动的自动反馈闭环。我持续借助 AI 快速学习和迭代，关注真实场景中的可用性、可盈利性与长期复利。',
     terminal: [
       { key: 'role', value: 'AI Engineer / Web3 Developer / Builder' },
