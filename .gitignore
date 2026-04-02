@@ -4,6 +4,9 @@ build
 # Vercel output
 .vercel
 
+# macos files
+.DS_Store
+
 # Logs
 logs
 *.log
