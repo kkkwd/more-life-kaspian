@@ -32,7 +32,7 @@ export const siteZh: SiteContent = {
     kicker: '重点项目',
     title: '围绕问题、实现与结果展开的代表性系统。',
     description:
-      '覆盖 AI 知识工作流、量化交易基础设施与链上自动执行三个方向，突出工程深度与实际价值。',
+      '覆盖 AI 知识工作流、业务流程自动化、Web3 产品化与链上自动执行四类系统，突出工程深度与实际价值。',
     items: [
       {
         name: 'AI Knowledge Base',
@@ -49,6 +49,22 @@ export const siteZh: SiteContent = {
         highlight: '混合检索 + 引用溯源 + 多知识库路由',
         github: 'https://github.com/kkkwd/bank-knowledge-assistant',
         demo: 'https://www.kaspian.top/'
+      },
+      {
+        name: 'BizCover Automation Engine',
+        summary: '面向保险报价流程、数据映射与可恢复执行的商业化自动化引擎。',
+        description:
+          '围绕澳洲保险报价流程，构建从客户数据读取、字段标准化到多步骤页面执行的自动化系统。',
+        details: [
+          '将 Excel 客户资料归一化为稳定字段契约，用映射层吸收业务差异，降低流程扩展与维护成本。',
+          '按职业选择、客户信息、业务信息等节点拆分执行步骤，保留清晰状态边界，便于观测、恢复与重试。',
+          '以报价提取、执行追踪与决策分析为后续扩展方向，为 Agent 驱动执行和闭环优化预留系统接口。'
+        ],
+        tags: ['Node.js', 'Playwright', 'Workflow Automation', 'Data Mapping', 'Operations'],
+        status: '已开源',
+        highlight: '将重复报价操作沉淀为可商业化、可观测、可恢复的自动化执行基础设施',
+        github: 'https://github.com/kkkwd/bizcover-automation',
+        demo: 'https://www.bizcover.com.au'
       },
       // {
       //   name: 'Quant Trading Bot',

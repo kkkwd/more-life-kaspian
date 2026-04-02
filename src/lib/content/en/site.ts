@@ -32,7 +32,7 @@ export const siteEn: SiteContent = {
     kicker: 'Featured Projects',
     title: 'Selected systems with clear problem, implementation, and outcome.',
     description:
-      'Three representative projects across AI knowledge workflows, quant infrastructure, and autonomous on-chain execution.',
+      'Representative builds across AI knowledge workflows, workflow automation, productized Web3 systems, and autonomous on-chain execution.',
     items: [
       {
         name: 'AI Knowledge Base',
@@ -49,6 +49,22 @@ export const siteEn: SiteContent = {
         highlight: 'Hybrid retrieval + citations + multi-tenant knowledge routing',
         github: 'https://github.com/kkkwd/bank-knowledge-assistant',
         demo: 'https://www.kaspian.top/'
+      },
+      {
+        name: 'BizCover Automation Engine',
+        summary: 'A commercialization-oriented automation engine for insurance quote workflows, data mapping, and recoverable execution.',
+        description:
+          'Built around the BizCover Australia quote flow, this system turns client intake, field normalization, and multi-step browser execution into reusable automation infrastructure rather than a one-off script.',
+        details: [
+          'Normalized Excel client records into a stable field contract, using mapping layers to absorb business variance and reduce maintenance overhead.',
+          'Split occupation selection, customer details, and business information into explicit workflow steps with clearer state boundaries for observability, retries, and recovery.',
+          'Scoped the next layer around quote extraction, execution tracing, and decision analysis so the workflow can evolve toward agent-driven execution and closed-loop optimization.'
+        ],
+        tags: ['Node.js', 'Playwright', 'Workflow Automation', 'Data Mapping', 'Operations'],
+        status: 'Open Source',
+        highlight: 'Automation infrastructure for turning repetitive quote operations into measurable, recoverable execution',
+        github: 'https://github.com/kkkwd/bizcover-automation',
+        demo: 'https://www.bizcover.com.au'
       },
       // {
       //   name: 'Quant Trading Bot',
