@@ -154,20 +154,20 @@ export const siteZh: SiteContent = {
         ],
         tags: ['Data Science', 'AI', 'Spark', 'PostgreSQL', 'Rust', 'Web3', 'Automation']
       },
-      {
-        company: 'Quant Research Lab',
-        role: 'Quant Developer / Research Engineer',
-        period: '2022 - 2024',
-        location: '上海',
-        description: '参与信号研究、交易自动化与系统化流程基础设施建设。',
-        bullets: [
-          '实现策略研究工具链，提升回测接口与实盘执行接口的一致性，降低策略迁移成本。',
-          '搭建数据与执行流水线，使实验信号更容易进入稳定运行的任务环境。',
-          '补强订单、策略状态和异常链路的监控能力，提高执行系统的可维护性与可靠性。'
-        ],
-        tags: ['Quant Research', 'Backtesting', 'Execution Systems', 'Monitoring'],
-        link: 'https://github.com/'
-      }
+      // {
+      //   company: 'Quant Research Lab',
+      //   role: 'Quant Developer / Research Engineer',
+      //   period: '2022 - 2024',
+      //   location: '上海',
+      //   description: '参与信号研究、交易自动化与系统化流程基础设施建设。',
+      //   bullets: [
+      //     '实现策略研究工具链，提升回测接口与实盘执行接口的一致性，降低策略迁移成本。',
+      //     '搭建数据与执行流水线，使实验信号更容易进入稳定运行的任务环境。',
+      //     '补强订单、策略状态和异常链路的监控能力，提高执行系统的可维护性与可靠性。'
+      //   ],
+      //   tags: ['Quant Research', 'Backtesting', 'Execution Systems', 'Monitoring'],
+      //   link: 'https://github.com/'
+      // }
     ]
   },
   blog: {

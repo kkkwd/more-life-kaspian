@@ -155,20 +155,20 @@ export const siteEn: SiteContent = {
         ],
         tags: ['Data Science', 'AI', 'Spark', 'PostgreSQL', 'Rust', 'Web3', 'Automation']
       },
-      {
-        company: 'Quant Research Lab',
-        role: 'Quant Developer / Research Engineer',
-        period: '2022 - 2024',
-        location: 'Shanghai',
-        description: 'Worked on signal research, trading automation, and infrastructure for systematic workflows.',
-        bullets: [
-          'Implemented strategy research tooling and improved the consistency of backtest and live-trading interfaces.',
-          'Built data and execution pipelines that made it easier to move from experimental signals to operational jobs.',
-          'Improved observability around orders, strategy states, and failure handling for more reliable execution.'
-        ],
-        tags: ['Quant Research', 'Backtesting', 'Execution Systems', 'Monitoring'],
-        link: 'https://github.com/'
-      }
+      // {
+      //   company: 'Quant Research Lab',
+      //   role: 'Quant Developer / Research Engineer',
+      //   period: '2022 - 2024',
+      //   location: 'Shanghai',
+      //   description: 'Worked on signal research, trading automation, and infrastructure for systematic workflows.',
+      //   bullets: [
+      //     'Implemented strategy research tooling and improved the consistency of backtest and live-trading interfaces.',
+      //     'Built data and execution pipelines that made it easier to move from experimental signals to operational jobs.',
+      //     'Improved observability around orders, strategy states, and failure handling for more reliable execution.'
+      //   ],
+      //   tags: ['Quant Research', 'Backtesting', 'Execution Systems', 'Monitoring'],
+      //   link: 'https://github.com/'
+      // }
     ]
   },
   blog: {
