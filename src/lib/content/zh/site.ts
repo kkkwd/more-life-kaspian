@@ -139,17 +139,20 @@ export const siteZh: SiteContent = {
         tags: ['Java', 'Spring Boot', 'MyBatis', 'Kafka', 'Elasticsearch', 'Redis', 'XXL-JOB', 'DevOps']
       },
       {
-        company: 'Independent Builder',
-        role: 'AI Engineer / Product Builder',
-        period: '2024 - 至今',
-        location: 'Remote',
-        description: '持续独立构建 AI 产品、实验工具与面向开发者的系统。',
+        company: 'UNSW Sydney / Independent Builder',
+        role: 'Data Science 学生 / AI 与 Web3 Builder',
+        period: '2024 - 2025',
+        location: '悉尼，澳洲',
+        description:
+          '在 UNSW 学习 Data Science 的同时持续做独立项目交付，并在 2024-2025 这段时间完成从传统金融科技到 AI 与 Web3 的方向切换。',
         bullets: [
-          '设计并迭代检索工作流、Agent 工具与前端交互体验，用于 AI 产品原型和实际应用。',
-          '从数据接入、模型编排到用户界面完成端到端原型搭建，缩短想法验证到可用产品的路径。',
-          '保持以交付为核心的节奏，让探索性研究尽量沉淀为可复用的系统资产。'
+          '在 GPT-3.5 带动 AI 产品集中爆发的阶段，持续高频跟踪新模型、新产品、新概念和行业新闻，形成对前沿 AI 技术和产品趋势的长期关注。',
+          '完成 Spark 大数据分析、PostgreSQL 底层源码分析和 Rust 语言探索，补强数据处理与系统工程基础。',
+          '与同学合作完成 Web3 项目 ChronoStamp，覆盖链上产品设计、钱包交互流程与去中心化应用执行约束。',
+          '以独立开发者身份交付 BizCover Automation 项目，将保险报价与保单定价流程沉淀为可复用的浏览器自动化能力。',
+          '将这一阶段的技术积累和项目实践收束为明确判断：从传统金融转向 Web3 与 AI。'
         ],
-        tags: ['LLM Engineering', 'SvelteKit', 'Python', 'Product Prototyping']
+        tags: ['Data Science', 'AI', 'Spark', 'PostgreSQL', 'Rust', 'Web3', 'Automation']
       },
       {
         company: 'Quant Research Lab',
@@ -205,15 +208,15 @@ export const siteZh: SiteContent = {
     description:
       '我主要工作在 AI 系统、量化工具链与开发者产品的交叉地带，长期关注金融、交易系统与自动化执行在真实约束下的工程落地。',
     intro:
-      '在银行金融科技与数据系统中的真实交付经历，让我更关注技术如何真正形成可运行、可扩展、可维护的系统。现在我希望把传统金融流程、资金流与自动化系统的工程经验迁移到 Web3、DeFi、预测市场与 Agent 驱动执行领域，继续押注下一代金融基础设施的演化。',
+      '在银行金融科技与数据系统中的真实交付经历，让我更关注技术如何真正形成可运行、可扩展、可维护的系统。2024 到 2025 年在澳洲 UNSW 读书期间，我把这套工程背景进一步转向 AI 原生产品、Web3 系统和独立开发。',
     focus: [
-      '围绕检索、评估、工作流编排构建可落地的 LLM 应用。',
-      '面向研究、回测、监控与执行设计量化交易系统。',
-      '关注 Web3、DeFi、预测市场、套利机会与自动化执行体系。',
-      '探索独立开发、产品化路径与个人长期商业积累。'
+      '围绕检索、评估、工作流编排与自动化能力构建可落地的 LLM 应用。',
+      '长期高频关注前沿 AI 产品、新概念、热点公司与技术变化，并把这些输入转化为产品判断。',
+      '关注 Web3、DeFi、预测市场、钱包交互产品与自动化执行体系。',
+      '把独立开发作为从传统金融转向 AI 与 Crypto 原生软件的长期路径。'
     ],
     current:
-      '当前重点关注 Agent 可靠性、执行状态设计，以及数据驱动的自动反馈闭环。我希望带着传统金融系统、风控与资金流处理经验转向分布式金融与自动化交易方向，长期看好 Web3 与 AI 的结合，也持续关注 Stripe 式产品能力与 Circle 所代表的稳定币叙事如何重塑未来金融。',
+      '当前重点关注 Agent 可靠性、执行状态设计，以及数据驱动的自动反馈闭环。我希望带着传统金融系统、风控与资金流处理经验转向 AI 软件、分布式金融与自动化交易方向，也持续关注 Stripe 式产品能力与 Circle 所代表的稳定币叙事如何重塑未来金融。',
     terminal: [
       { key: 'role', value: 'AI Engineer / Web3 Developer / Builder' },
       { key: 'stack', value: 'Golang, Python, Rust, TypeScript, Postgres' },

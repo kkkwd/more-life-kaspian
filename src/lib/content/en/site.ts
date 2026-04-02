@@ -140,17 +140,20 @@ export const siteEn: SiteContent = {
         tags: ['Java', 'Spring Boot', 'MyBatis', 'Kafka', 'Elasticsearch', 'Redis', 'XXL-JOB', 'DevOps']
       },
       {
-        company: 'Independent Builder',
-        role: 'AI Engineer / Product Builder',
-        period: '2024 - Present',
-        location: 'Remote',
-        description: 'Shipping applied AI products, experimentation tools, and developer-oriented systems.',
+        company: 'UNSW Sydney / Independent Builder',
+        role: 'Data Science Student / AI & Web3 Builder',
+        period: '2024 - 2025',
+        location: 'Sydney, Australia',
+        description:
+          'Combined Data Science study at UNSW with independent project delivery, using the 2024-2025 cycle to transition from traditional fintech into AI and Web3.',
         bullets: [
-          'Designed and iterated on retrieval workflows, agent tools, and front-end experiences for AI-first products.',
-          'Built end-to-end prototypes that connect data ingestion, model orchestration, and user-facing applications.',
-          'Maintained an execution-focused loop from product hypothesis to working software, reducing throwaway exploration.'
+          'Tracked frontier AI products, model releases, and technical shifts on a daily basis throughout the GPT-3.5 breakout period, building fast-moving product and engineering judgment around new AI capabilities.',
+          'Completed hands-on work in Spark-based large-scale data analysis, PostgreSQL source-level study, and Rust exploration, strengthening both data and systems fundamentals.',
+          'Built ChronoStamp with classmates as a Web3 project, covering on-chain product design, wallet-connected flows, and decentralized application constraints.',
+          'Delivered BizCover Automation as an independent commercial project in Australia, turning insurance quote and policy-pricing workflows into reusable browser automation infrastructure.',
+          'Used this period to make the direction explicit: transition from traditional finance technology toward AI, Web3, automation, and independent product building.'
         ],
-        tags: ['LLM Engineering', 'SvelteKit', 'Python', 'Product Prototyping']
+        tags: ['Data Science', 'AI', 'Spark', 'PostgreSQL', 'Rust', 'Web3', 'Automation']
       },
       {
         company: 'Quant Research Lab',
@@ -206,15 +209,15 @@ export const siteEn: SiteContent = {
     description:
       'I mainly work at the intersection of AI systems, quant tooling, and developer products, with a long-term focus on how finance, trading systems, and automated execution can be engineered under real constraints.',
     intro:
-      'My background in bank fintech delivery and financial systems makes me care more about how technology becomes something runnable, scalable, and maintainable. I now want to carry that experience from traditional finance workflows, transaction logic, and automation infrastructure into Web3, DeFi, prediction markets, and agent-driven execution, betting on the next generation of financial infrastructure.',
+      'My background in bank fintech delivery and financial systems makes me care about how technology becomes something runnable, scalable, and maintainable. The 2024-2025 period at UNSW in Australia then became the point where that engineering background shifted toward AI-native products, Web3 systems, and independent building.',
     focus: [
-      'Building deployable LLM applications around retrieval, evaluation, and workflow orchestration.',
-      'Designing quantitative trading systems for research, backtesting, monitoring, and execution.',
-      'Following Web3, DeFi, prediction markets, arbitrage opportunities, and automated execution systems.',
-      'Exploring indie building, productization paths, and long-term personal capital accumulation.'
+      'Building deployable LLM applications around retrieval, evaluation, workflow orchestration, and automation.',
+      'Following frontier AI products, emerging concepts, and category-defining companies closely enough to turn daily learning into product and engineering judgment.',
+      'Exploring Web3, DeFi, prediction markets, wallet-connected products, and automated execution systems.',
+      'Using independent building as a long-term path from traditional finance into AI- and crypto-native software.'
     ],
     current:
-      'Currently focused on agent reliability, execution-state design, and data-driven automatic feedback loops. I want to bring experience from traditional financial systems, risk control, and capital-flow processing into distributed finance and automated trading, and I remain especially interested in how Stripe-like product discipline and the Circle stablecoin narrative may shape the future of financial software.',
+      'Currently focused on agent reliability, execution-state design, and data-driven automatic feedback loops. I want to bring experience from traditional financial systems, risk control, and capital-flow processing into AI software, distributed finance, and automated trading, and I remain especially interested in how Stripe-like product discipline and the Circle stablecoin narrative may shape the future of financial software.',
     terminal: [
       { key: 'role', value: 'AI Engineer / Web3 Developer / Builder' },
       { key: 'stack', value: 'Golang, Python, Rust, TypeScript, Postgres' },
