@@ -10,7 +10,6 @@ export const siteEn: SiteContent = {
     { label: 'Home', href: '#home' },
     { label: 'Projects', href: '#projects' },
     { label: 'Experience', href: '#experience' },
-    { label: 'Blog', href: '#blog' },
     { label: 'About', href: '#about' },
     { label: 'Contact', href: '#contact' }
   ],
@@ -113,7 +112,7 @@ export const siteEn: SiteContent = {
         status: 'Open Source',
         highlight: 'A tool-calling on-chain copy trading agent system with execution boundary controls',
         github: 'https://github.com/kkkwd/polymarket-copytrader',
-        demo: '#blog'
+        demo: '#projects'
       }
     ]
   },

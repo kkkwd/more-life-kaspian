@@ -10,7 +10,6 @@ export const siteZh: SiteContent = {
     { label: '首页', href: '#home' },
     { label: '项目', href: '#projects' },
     { label: '经历', href: '#experience' },
-    { label: '博客', href: '#blog' },
     { label: '关于', href: '#about' },
     { label: '联系', href: '#contact' }
   ],
@@ -112,7 +111,7 @@ export const siteZh: SiteContent = {
         status: '已开源',
         highlight: '具备执行边界控制的工具调用式 Agent 链上跟单系统',
         github: 'https://github.com/kkkwd/polymarket-copytrader',
-        demo: '#blog'
+        demo: '#projects'
       }
     ]
   },

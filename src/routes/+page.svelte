@@ -4,7 +4,6 @@
   import HeroSection from '$lib/components/HeroSection.svelte';
   import ProjectsSection from '$lib/components/ProjectsSection.svelte';
   import ExperienceSection from '$lib/components/ExperienceSection.svelte';
-  import BlogSection from '$lib/components/BlogSection.svelte';
   import AboutSection from '$lib/components/AboutSection.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import { getSiteContent } from '$lib/content';
@@ -20,7 +19,7 @@
 
   $: content = getSiteContent(currentLocale);
 
-  const sectionIds = ['home', 'projects', 'experience', 'blog', 'about', 'contact'];
+  const sectionIds = ['home', 'projects', 'experience', 'about', 'contact'];
 
   onMount(() => {
     const unsubscribeLocale = locale.subscribe((value) => {
@@ -103,8 +102,8 @@
   <meta
     name="description"
     content={currentLocale === 'zh'
-      ? '面向 AI、区块链与自动化系统的个人作品站，包含项目、经历、博客与联系方式。'
-      : 'A focused portfolio for AI systems, web3 infrastructure, automation, selected projects, writing, and contact.'}
+      ? '面向 AI、区块链与自动化系统的个人作品站，包含项目、经历、关于与联系方式。'
+      : 'A focused portfolio for AI systems, web3 infrastructure, automation, selected projects, experience, and contact.'}
   />
 </svelte:head>
 
@@ -128,7 +127,6 @@
   <HeroSection content={content} reducedMotion={shouldReduceMotion} />
   <ProjectsSection content={content} reducedMotion={shouldReduceMotion} />
   <ExperienceSection content={content} reducedMotion={shouldReduceMotion} />
-  <BlogSection content={content} reducedMotion={shouldReduceMotion} />
   <AboutSection content={content} reducedMotion={shouldReduceMotion} />
   <Footer content={content} reducedMotion={shouldReduceMotion} />
 </main>
