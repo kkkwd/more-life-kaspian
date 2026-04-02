@@ -124,6 +124,22 @@ export const siteEn: SiteContent = {
       'A mix of product, research, and hands-on build experience focused on intelligent systems and automation.',
     items: [
       {
+        company: 'China Merchants Bank / Information Technology Department',
+        role: 'Backend Engineer / FinTech Systems Developer',
+        period: '2021 - 2023',
+        location: 'Chengdu',
+        description:
+          'Worked in a real banking production environment on fintech systems, delivering business automation, data analysis, and intelligent risk-control workflows from requirement alignment through release and post-launch operation.',
+        bullets: [
+          'Contributed deeply to the Hailuo RPA+AI platform, developing and shipping backend services on the bank’s cloud-native platform to support hundreds of live automation scenarios in real operational workflows.',
+          'Integrated OCR, OpenAPI-based capabilities, low-code patterns, and later-stage model interfaces so business requirements could be turned into usable, manageable internal systems with faster delivery cycles.',
+          'Built data pipelines and service layers around Kafka ingestion, Elasticsearch analytics, and reporting APIs, powering operational dashboards plus automated daily, weekly, and yearly reporting for product, business, and management teams.',
+          'Independently delivered an intelligent post-loan transaction-screening workflow, handling business alignment, project setup, development, release, and iteration while using XXL-JOB for large-scale concurrent processing under compliance constraints.',
+          'Built practical engineering discipline across project management and DevOps-style delivery, including requirement breakdown, multi-environment coordination, testing, release, and production issue handling, which shaped my long-term interest in transaction systems, capital flows, and automated execution.'
+        ],
+        tags: ['Java', 'Spring Boot', 'MyBatis', 'Kafka', 'Elasticsearch', 'Redis', 'XXL-JOB', 'DevOps']
+      },
+      {
         company: 'Independent Builder',
         role: 'AI Engineer / Product Builder',
         period: '2024 - Present',
@@ -149,19 +165,6 @@ export const siteEn: SiteContent = {
         ],
         tags: ['Quant Research', 'Backtesting', 'Execution Systems', 'Monitoring'],
         link: 'https://github.com/'
-      },
-      {
-        company: 'Systems & AI Research',
-        role: 'Research / Engineering Intern',
-        period: '2021 - 2022',
-        location: 'Hangzhou',
-        description: 'Explored practical ML systems, developer tools, and production tradeoffs in applied research.',
-        bullets: [
-          'Prototyped data pipelines and model-serving workflows for internal experimentation environments.',
-          'Collaborated on evaluation tooling that made model behavior easier to inspect and compare.',
-          'Documented technical findings and converted experiments into reusable engineering assets.'
-        ],
-        tags: ['Applied ML', 'Evaluation', 'Data Pipelines', 'Research Engineering']
       }
     ]
   },
@@ -203,15 +206,15 @@ export const siteEn: SiteContent = {
     description:
       'I mainly work at the intersection of AI systems, quant tooling, and developer products, with a long-term focus on how finance, trading systems, and automated execution can be engineered under real constraints.',
     intro:
-      'My background in traditional finance and trading systems makes me care more about how technology becomes something runnable, scalable, and maintainable. I have ongoing interest in Web3, DeFi, prediction markets, agents combined with wallet-based execution, and the design and evolution of future financial infrastructure.',
+      'My background in bank fintech delivery and financial systems makes me care more about how technology becomes something runnable, scalable, and maintainable. I now want to carry that experience from traditional finance workflows, transaction logic, and automation infrastructure into Web3, DeFi, prediction markets, and agent-driven execution, betting on the next generation of financial infrastructure.',
     focus: [
       'Building deployable LLM applications around retrieval, evaluation, and workflow orchestration.',
       'Designing quantitative trading systems for research, backtesting, monitoring, and execution.',
-      'Following Web3, prediction markets, arbitrage opportunities, and automated execution systems.',
+      'Following Web3, DeFi, prediction markets, arbitrage opportunities, and automated execution systems.',
       'Exploring indie building, productization paths, and long-term personal capital accumulation.'
     ],
     current:
-      'Currently focused on agent reliability, execution-state design, and data-driven automatic feedback loops. I keep using AI to learn and iterate quickly, with attention on usability, profitability, and long-term compounding in real scenarios.',
+      'Currently focused on agent reliability, execution-state design, and data-driven automatic feedback loops. I want to bring experience from traditional financial systems, risk control, and capital-flow processing into distributed finance and automated trading, and I remain especially interested in how Stripe-like product discipline and the Circle stablecoin narrative may shape the future of financial software.',
     terminal: [
       { key: 'role', value: 'AI Engineer / Web3 Developer / Builder' },
       { key: 'stack', value: 'Golang, Python, Rust, TypeScript, Postgres' },

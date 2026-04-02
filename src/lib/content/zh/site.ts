@@ -123,6 +123,22 @@ export const siteZh: SiteContent = {
       '涵盖产品构建、研究开发与自动化系统落地，重点体现长期的工程思维和执行能力。',
     items: [
       {
+        company: '招商银行 / 信息技术部 / 招银网络科技（成都）',
+        role: '系统研发工程师 / 后端开发',
+        period: '2021 - 2023',
+        location: '成都',
+        description:
+          '在银行真实生产环境中参与金融科技系统建设，围绕业务流程自动化、数据分析与智能风控完成从需求对接、研发测试到上线运维的全流程交付。',
+        bullets: [
+          '深度参与海螺 RPA+AI 业务中台建设，在云原生平台上完成后端服务开发、发布与迭代，支撑全行数百个自动化场景在真实业务流程中稳定运行。',
+          '围绕 OCR、OpenAPI、低代码能力和大模型接入推进平台能力产品化，让业务需求能够更快落地到银行内部可用、可管理、可持续运营的系统中。',
+          '构建 Kafka 实时接入、Elasticsearch 存储分析与数据服务接口，支持运营分析大屏及日报、周报、年报自动生成，为产品经理、业务团队和管理层提供决策依据。',
+          '独立负责智能贷后流水排查项目的业务对接、立项、开发、上线与后续迭代，基于 XXL-JOB 完成大规模流水任务调度与并发处理，在合规约束下显著提升风控排查效率。',
+          '在银行级项目管理和 DevOps 协作流程中积累了从需求拆解、环境联调、测试发布到生产问题跟踪的完整经验，也由此形成了对金融交易与资金流系统稳定性、可追踪性和自动化执行的长期关注。'
+        ],
+        tags: ['Java', 'Spring Boot', 'MyBatis', 'Kafka', 'Elasticsearch', 'Redis', 'XXL-JOB', 'DevOps']
+      },
+      {
         company: 'Independent Builder',
         role: 'AI Engineer / Product Builder',
         period: '2024 - 至今',
@@ -148,19 +164,6 @@ export const siteZh: SiteContent = {
         ],
         tags: ['Quant Research', 'Backtesting', 'Execution Systems', 'Monitoring'],
         link: 'https://github.com/'
-      },
-      {
-        company: 'Systems & AI Research',
-        role: 'Research / Engineering Intern',
-        period: '2021 - 2022',
-        location: '杭州',
-        description: '在应用研究环境中探索 ML 系统、开发工具与工程化权衡。',
-        bullets: [
-          '搭建实验用数据流水线与模型服务流程，为内部研究环境提供更稳定的基础支持。',
-          '参与评估工具开发，使模型行为更容易被观察、比较和复盘。',
-          '将实验结果整理为技术文档和可复用模块，减少重复试错。'
-        ],
-        tags: ['Applied ML', 'Evaluation', 'Data Pipelines', 'Research Engineering']
       }
     ]
   },
@@ -202,15 +205,15 @@ export const siteZh: SiteContent = {
     description:
       '我主要工作在 AI 系统、量化工具链与开发者产品的交叉地带，长期关注金融、交易系统与自动化执行在真实约束下的工程落地。',
     intro:
-      '传统金融与交易系统背景让我更关注技术如何真正形成可运行、可扩展、可维护的系统。我对 Web3、DeFi、预测市场、Agent 结合钱包自动执行，以及未来金融基础设施的设计与演化有持续兴趣。',
+      '在银行金融科技与数据系统中的真实交付经历，让我更关注技术如何真正形成可运行、可扩展、可维护的系统。现在我希望把传统金融流程、资金流与自动化系统的工程经验迁移到 Web3、DeFi、预测市场与 Agent 驱动执行领域，继续押注下一代金融基础设施的演化。',
     focus: [
       '围绕检索、评估、工作流编排构建可落地的 LLM 应用。',
       '面向研究、回测、监控与执行设计量化交易系统。',
-      '关注 Web3、预测市场、套利机会与自动化执行体系。',
+      '关注 Web3、DeFi、预测市场、套利机会与自动化执行体系。',
       '探索独立开发、产品化路径与个人长期商业积累。'
     ],
     current:
-      '当前重点关注Agent 可靠性、执行状态设计，以及数据驱动的自动反馈闭环。我持续借助 AI 快速学习和迭代，关注真实场景中的可用性、可盈利性与长期复利。',
+      '当前重点关注 Agent 可靠性、执行状态设计，以及数据驱动的自动反馈闭环。我希望带着传统金融系统、风控与资金流处理经验转向分布式金融与自动化交易方向，长期看好 Web3 与 AI 的结合，也持续关注 Stripe 式产品能力与 Circle 所代表的稳定币叙事如何重塑未来金融。',
     terminal: [
       { key: 'role', value: 'AI Engineer / Web3 Developer / Builder' },
       { key: 'stack', value: 'Golang, Python, Rust, TypeScript, Postgres' },
