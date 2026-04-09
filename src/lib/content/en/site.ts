@@ -226,7 +226,7 @@ export const siteEn: SiteContent = {
     ]
   },
   contact: {
-    title: 'Let’s go get some fries at the dock. Do Everything. Do not Die.',
+    title: 'Do Everything. Do not Die.',
     subtitle: 'Open to job opportunities, collaborative projects, and frontier technical directions for independent builders.',
     email: 'k945runfree@gmail.com',
     github: 'https://github.com/kkkwd/',

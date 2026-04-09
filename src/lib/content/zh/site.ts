@@ -82,20 +82,20 @@ export const siteZh: SiteContent = {
       //   demo: '#experience'
       // },
       {
-        "name": "ChronoStamp",
-        "summary": "面向真实活动场景的链上数字凭证协议与 Web3 产品化实践。",
-        "description": "围绕真实活动与身份沉淀场景，构建链下资格判断、链上凭证发放与用户交互统一协同的 Web3。",
-        "details": [
-          "以链下签名授权与链上合约验证构建清晰的领取流程，强化状态边界、执行可靠性与可验证性。",
-          "通过 Factory 模式抽象活动凭证发行逻辑，支持多活动场景下的标准化部署与扩展。",
-          "结合 IPFS 元数据存储、前端交互与链上执行反馈，形成完整的产品闭环。",
-          "项目设计强调可组合、可迁移与可演进，为后续 Agent + Wallet 自动执行体系预留接口。"
+        name: 'ChronoStamp',
+        summary: '面向真实活动场景的链上数字凭证协议与 Web3 产品化实践。',
+        description: '围绕真实活动与身份沉淀场景，构建链下资格判断、链上凭证发放与用户交互统一协同的 Web3。',
+        details: [
+          '以链下签名授权与链上合约验证构建清晰的领取流程，强化状态边界、执行可靠性与可验证性。',
+          '通过 Factory 模式抽象活动凭证发行逻辑，支持多活动场景下的标准化部署与扩展。',
+          '结合 IPFS 元数据存储、前端交互与链上执行反馈，形成完整的产品闭环。',
+          '项目设计强调可组合、可迁移与可演进，为后续 Agent + Wallet 自动执行体系预留接口。'
         ],
-        "tags": ["Hardhat", "Next.js", "Arbitrum", "IPFS", "Ethers.js"],
-        "status": "已部署上线",
-        "highlight": "面向可落地产品化与链上执行场景设计的 Web3 凭证系统",
-        "github": "https://github.com/ZaneMa528/chronostamp",
-        "demo": "https://chronostamp-poap.vercel.app/"
+        tags: ['Hardhat', 'Next.js', 'Arbitrum', 'IPFS', 'Ethers.js'],
+        status: '已部署上线',
+        highlight: '面向可落地产品化与链上执行场景设计的 Web3 凭证系统',
+        github: 'https://github.com/ZaneMa528/chronostamp',
+        demo: 'https://chronostamp-poap.vercel.app/'
       },
       {
         name: 'Web3 Agent',
@@ -225,7 +225,7 @@ export const siteZh: SiteContent = {
     ]
   },
   contact: {
-    title: '一起去码头整点薯条。Do Everything. Do not Die.',
+    title: 'Do Everything. Do not Die.',
     subtitle: '欢迎交流工作岗位、合作项目和独立个体前沿技术方向。',
     email: 'k945runfree@gmail.com',
     github: 'https://github.com/kkkwd/',
