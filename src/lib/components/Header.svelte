@@ -11,7 +11,7 @@
   export let onToggleMenu: () => void;
   export let onCloseMenu: () => void;
 
-  const githubHref = 'https://github.com/';
+  const githubHref = 'https://github.com/kkkwd';
 </script>
 
 <header class="sticky top-0 z-40 border-b border-line/70 bg-paper/78 backdrop-blur-xl">
