@@ -231,7 +231,7 @@ export const siteZh: SiteContent = {
     github: 'https://github.com/kkkwd/',
     linkedin: 'https://www.linkedin.com/in/weidong-kong/',
     x: 'https://x.com/Morelifekkk/',
-    resumeHref: '/Kaspian-Resume.pdf'
+    resumeHref: '/Kaspian-Resume_ZH.pdf'
   },
   footerNote: '使用 SvelteKit 与 Tailwind CSS 构建，特效克制，信息优先。',
   projectActions: {

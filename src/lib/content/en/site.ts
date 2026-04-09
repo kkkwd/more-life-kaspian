@@ -232,7 +232,7 @@ export const siteEn: SiteContent = {
     github: 'https://github.com/kkkwd/',
     linkedin: 'https://www.linkedin.com/in/weidong-kong/',
     x: 'https://x.com/Morelifekkk/',
-    resumeHref: '/Kaspian-Resume.pdf'
+    resumeHref: '/Kaspian-Resume_EN.pdf'
   },
   footerNote: 'Built with SvelteKit and Tailwind CSS, with restrained effects and information first.',
   projectActions: {
