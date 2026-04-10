@@ -14,18 +14,14 @@ export const siteZh: SiteContent = {
     { label: '联系', href: '#contact' }
   ],
   hero: {
-    eyebrow: 'AI Engineer · Web3 Developer · Builder',
-    title: '构建面向真实场景的 AI、Web3 与自动化系统。',
-    subtitle:
-      '专注于系统构建、Web3 开发与 Agent 工作流的工程化实现，强调结构化、可落地和长期可维护。',
+    eyebrow: "Hello, I'm",
+    name: 'Kaspian',
+    roleLine: 'Builder-Minded Engineer. 连接 AI、Web3 与自动化系统。',
+    summary:
+      '专注于 Agent 工作流、产品化基础设施和真实部署场景下的工程实现，强调结构化、可用性与长期可维护。',
     primaryCta: '查看项目',
     secondaryCta: '下载简历',
-    availability: '可沟通工程岗位、研究合作与产品共建。',
-    metrics: [
-      { label: '方向', value: 'LLM模型 / Agent工程' },
-      { label: '基础设施', value: '量化与自动化' },
-      { label: '工作方式', value: '兼具快速交付和可用性' }
-    ]
+    availability: '可沟通工程岗位、研究合作与产品共建。'
   },
   projects: {
     kicker: '重点项目',

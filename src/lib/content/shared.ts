@@ -8,15 +8,12 @@ export type NavItem = {
 
 export type HeroContent = {
   eyebrow: string;
-  title: string;
-  subtitle: string;
+  name: string;
+  roleLine: string;
+  summary: string;
   primaryCta: string;
   secondaryCta: string;
   availability: string;
-  metrics: Array<{
-    label: string;
-    value: string;
-  }>;
 };
 
 export type Project = {

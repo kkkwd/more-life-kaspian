@@ -14,18 +14,14 @@ export const siteEn: SiteContent = {
     { label: 'Contact', href: '#contact' }
   ],
   hero: {
-    eyebrow: 'AI Engineer · Web3 Developer · Builder',
-    title: 'Building AI, Web3, and automation systems for real-world use.',
-    subtitle:
-      'Focused on engineering implementation across system building, Web3 development, and agent workflows, with an emphasis on structure, real deployment, and long-term maintainability.',
+    eyebrow: "Hello, I'm",
+    name: 'Kaspian',
+    roleLine: 'Builder-Minded Engineer. Shaping AI, Web3, and automation systems.',
+    summary:
+      'Focused on practical implementation across agent workflows, productized infrastructure, and real deployment, with an emphasis on structure, usability, and long-term maintainability.',
     primaryCta: 'View Projects',
     secondaryCta: 'Download Resume',
-    availability: 'Open to engineering roles, research collaboration, and product builds.',
-    metrics: [
-      { label: 'Focus', value: 'LLM Models / Agent Engineering' },
-      { label: 'Infra', value: 'Quant & Automation' },
-      { label: 'Mode', value: 'Fast delivery with practical usability' }
-    ]
+    availability: 'Open to engineering roles, research collaboration, and product builds.'
   },
   projects: {
     kicker: 'Featured Projects',
