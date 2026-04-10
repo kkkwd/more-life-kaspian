@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Icon from './Icon.svelte';
   import type { SiteContent } from '$lib/content/shared';
   import { reveal } from '$lib/utils/actions';
 
@@ -22,15 +23,24 @@
 
         <div class="space-y-3 text-sm text-muted">
           <a href={content.contact.github} target="_blank" rel="noreferrer" class="flex justify-between gap-4 rounded-2xl border border-line/80 px-4 py-3 transition hover:border-accent/40 hover:bg-paper/55 hover:text-ink">
-            <span>GitHub</span>
+            <span class="flex items-center gap-3">
+              <Icon name="github" className="h-4 w-4 shrink-0" />
+              <span>GitHub</span>
+            </span>
             <span>↗</span>
           </a>
           <a href={content.contact.linkedin} target="_blank" rel="noreferrer" class="flex justify-between gap-4 rounded-2xl border border-line/80 px-4 py-3 transition hover:border-accent/40 hover:bg-paper/55 hover:text-ink">
-            <span>LinkedIn</span>
+            <span class="flex items-center gap-3">
+              <Icon name="linkedin" className="h-4 w-4 shrink-0" />
+              <span>LinkedIn</span>
+            </span>
             <span>↗</span>
           </a>
           <a href={content.contact.x} target="_blank" rel="noreferrer" class="flex justify-between gap-4 rounded-2xl border border-line/80 px-4 py-3 transition hover:border-accent/40 hover:bg-paper/55 hover:text-ink">
-            <span>X / Twitter</span>
+            <span class="flex items-center gap-3">
+              <Icon name="x" className="h-4 w-4 shrink-0" />
+              <span>X / Twitter</span>
+            </span>
             <span>↗</span>
           </a>
         </div>

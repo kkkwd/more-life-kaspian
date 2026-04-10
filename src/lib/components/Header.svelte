@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Icon from './Icon.svelte';
   import type { Locale, SiteContent, Theme } from '$lib/content/shared';
 
   export let content: SiteContent;
@@ -40,10 +41,10 @@
         href={githubHref}
         target="_blank"
         rel="noreferrer"
-        class="rounded-full border border-line bg-soft px-3 py-2 text-sm text-muted transition hover:border-accent/40 hover:text-ink"
+        class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-line bg-soft text-muted transition hover:border-accent/40 hover:text-ink"
         aria-label="GitHub"
       >
-        GitHub
+        <Icon name="github" />
       </a>
       <button
         type="button"
@@ -55,11 +56,11 @@
       </button>
       <button
         type="button"
-        class="rounded-full border border-line bg-soft px-3 py-2 text-sm text-muted transition hover:border-accent/40 hover:text-ink"
+        class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-line bg-soft text-muted transition hover:border-accent/40 hover:text-ink"
         on:click={onToggleTheme}
         aria-label={content.themeSwitchLabel}
       >
-        {theme === 'light' ? 'Dark' : 'Light'}
+        <Icon name={theme === 'light' ? 'moon' : 'sun'} />
       </button>
     </div>
 
@@ -97,15 +98,21 @@
             href={githubHref}
             target="_blank"
             rel="noreferrer"
-            class="rounded-full border border-line px-4 py-2 text-sm text-muted"
+            class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-line px-4 py-2 text-sm text-muted"
+            aria-label="GitHub"
           >
-            GitHub
+            <Icon name="github" />
           </a>
           <button type="button" class="rounded-full border border-line px-4 py-2 text-sm text-muted" on:click={onToggleLocale}>
             {locale === 'en' ? '中文' : 'EN'}
           </button>
-          <button type="button" class="rounded-full border border-line px-4 py-2 text-sm text-muted" on:click={onToggleTheme}>
-            {theme === 'light' ? 'Dark' : 'Light'}
+          <button
+            type="button"
+            class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-line px-4 py-2 text-sm text-muted"
+            on:click={onToggleTheme}
+            aria-label={content.themeSwitchLabel}
+          >
+            <Icon name={theme === 'light' ? 'moon' : 'sun'} />
           </button>
         </div>
       </nav>
